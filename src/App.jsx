@@ -1,9 +1,14 @@
 import React from "react";
+import Header from "./components/Header";
+import Stream from "./components/Stream";
 
 function App() {
   return (
     <div>
-      <h1>Fan Controller App</h1>
+      <Header />
+      <div className="container">
+        <Stream></Stream>
+      </div>
     </div>
   );
 }
