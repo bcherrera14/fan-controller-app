@@ -14,10 +14,10 @@ function ManualForm() {
             className="btn-check"
             name="btnradio"
             id="btnradio1"
-            autocomplete="off"
-            checked
+            autoComplete="off"
+            defaultChecked
           ></input>
-          <label className="btn btn-outline-secondary" for="btnradio1">
+          <label className="btn btn-outline-secondary" htmlFor="btnradio1">
             0%
           </label>
 
@@ -26,9 +26,9 @@ function ManualForm() {
             className="btn-check"
             name="btnradio"
             id="btnradio2"
-            autocomplete="off"
+            autoComplete="off"
           ></input>
-          <label className="btn btn-outline-secondary" for="btnradio2">
+          <label className="btn btn-outline-secondary" htmlFor="btnradio2">
             25%
           </label>
 
@@ -37,9 +37,9 @@ function ManualForm() {
             className="btn-check"
             name="btnradio"
             id="btnradio3"
-            autocomplete="off"
+            autoComplete="off"
           ></input>
-          <label className="btn btn-outline-secondary" for="btnradio3">
+          <label className="btn btn-outline-secondary" htmlFor="btnradio3">
             50%
           </label>
 
@@ -48,9 +48,9 @@ function ManualForm() {
             className="btn-check"
             name="btnradio"
             id="btnradio4"
-            autocomplete="off"
+            autoComplete="off"
           ></input>
-          <label className="btn btn-outline-secondary" for="btnradio4">
+          <label className="btn btn-outline-secondary" htmlFor="btnradio4">
             75%
           </label>
 
@@ -59,9 +59,9 @@ function ManualForm() {
             className="btn-check"
             name="btnradio"
             id="btnradio5"
-            autocomplete="off"
+            autoComplete="off"
           ></input>
-          <label className="btn btn-outline-secondary" for="btnradio5">
+          <label className="btn btn-outline-secondary" htmlFor="btnradio5">
             100%
           </label>
         </div>

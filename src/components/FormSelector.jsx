@@ -5,9 +5,10 @@ function FormSelector() {
     <select
       className="form-select text-center fw-bold"
       aria-label="Default select example"
+      defaultValue="1"
     >
-      <option selected>Duty Cycle</option>
-      <option value="1">Cycle</option>
+      <option value="1">Duty Cycle</option>
+      <option value="2">Cycle</option>
     </select>
   );
 }

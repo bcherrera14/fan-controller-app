@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Stream from "./components/Stream";
 import FormSelector from "./components/FormSelector";
 import ManualForm from "./components/ManualForm";
+import CycleForm from "./components/CycleForm";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
           <div className="col">
             <div className="d-flex flex-column align-items-center">
               <FormSelector></FormSelector>
-              <ManualForm></ManualForm>
+              <CycleForm></CycleForm>
+              {/* <ManualForm></ManualForm> */}
             </div>
           </div>
         </div>
